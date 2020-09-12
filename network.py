@@ -33,6 +33,7 @@ plot.xgrid.visible = False
 plot.ygrid.visible = False
 plot.axis.visible = False
 plot.outline_line_alpha = 0
+plot.toolbar.active_drag = None
 
 # Create the graph object from the NetworkX nodes
 graph_rel_size = 0.8
