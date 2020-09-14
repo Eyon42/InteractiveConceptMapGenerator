@@ -6,6 +6,7 @@ A python script that takes a markdown file with a specific structure, parses it,
 
 
 Structure for the markdown file:
+'''
 # [Title]
 ## [Concept]
 [Some text]
@@ -15,3 +16,4 @@ Structure for the markdown file:
 - [Related concept 1]
 - [Related concept 2]
 ## [Concept]
+'''
