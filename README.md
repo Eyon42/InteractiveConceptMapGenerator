@@ -20,9 +20,9 @@ A python script that takes a markdown file with a specific structure, parses it,
 
 ## Usage 
 
-´´´
+```
 python3 build.py [-h] [-o OUTPUT] [-i INPUT]
-´´´
+```
 
 If no optional arguments are given, the file "examples/AnálisisMatemático1.md" will be used as source and the output will be "output/map.html".
 
