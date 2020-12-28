@@ -134,7 +134,7 @@ $$
 $$
 
 
-Domicio: $D(f\circ g) = \{x \in D(g):g(x) \in D(f)\}$
+Dominio: $D(f\circ g) = \{x \in D(g):g(x) \in D(f)\}$
 
 
 ### Utiliza:

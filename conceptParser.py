@@ -1,4 +1,5 @@
 import networkx as nx
+import markdown as md
 
 
 def parse_concepts(filename):
@@ -100,3 +101,18 @@ def build_concept_network(filename):
             G.add_edge(concept["id"], use)
     
     return (G, N, concept_data, Title)
+
+def get_graph_data(filename):
+    """ Wrapper for the build_concept_network and parse_concepts functions.
+
+    Returns all nesessary data to draw the graph.
+    """
+    G, N, concept_data, Title = build_concept_network(filename)
+    titles = [concept["name"] for concept in concept_data]
+    html_content = [md.markdown(concept["content"]) for concept in concept_data]
+
+    # Get conection info about the nodes
+    node_conections = [list(nx.neighbors(G, n)) for n in range(N)]
+    node_conectivity = [len(con) for con in node_conections]
+
+    return (G, N, concept_data, Title, titles, html_content, node_conections, node_conectivity)
