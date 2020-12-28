@@ -10,7 +10,8 @@ A python script that takes a markdown file with a specific structure, parses it,
 # [Title]
 ## [Concept]
 [Some text]
-[Even Latex math]
+[Latex math is supported]
+[Images have limited support]
 ### [Any subtitle]
 ### Utiliza:
 - [Related concept 1]
