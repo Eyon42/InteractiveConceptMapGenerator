@@ -1,6 +1,8 @@
 # Interactive Concept Map Generator
 A python script that takes a markdown file with a specific structure, parses it, and uses bokeh to generate an interactive graph.
 
+[Blogpost](https://eyon42.github.io/2020/09/18/Interactive-Concept-Map.html)
+
 ## Examples:
 - [Análisis Matemático(Spanish)](https://eyon42.github.io/InteractiveConceptMapGenerator/output/map.html)
 
